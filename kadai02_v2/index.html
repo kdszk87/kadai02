@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High and Lowゲーム</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <img id="Card_img_Before" src="img/back.png" width="100" height="150" text-align="center">
+    ＊
+    <img id="Card_img_After" src="img/s_1.png" width="100" height="150">
+  
+    <p id="Before">場にあるカードは１</p>
+    <p id="After">High or Low ??</p>
+  
+    <input type="button" value="High" onclick="High_Low(1);"/>
+    <input type="button" value="Low" onclick="High_Low(0);"/>
+  
+    <!-- GoogleのjQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+    
+  </body>
+</html>
